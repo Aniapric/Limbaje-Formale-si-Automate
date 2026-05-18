@@ -1,4 +1,4 @@
-Laboratoare LFA (Limbaje Formale și Automate)
+#Laboratoare LFA (Limbaje Formale și Automate)
 Acest repository conține implementările laboratoarelor pentru cursul de Limbaje Formale și Automate. 
 
 Structura repository-ului:
