@@ -1,0 +1,16 @@
+!start!
+!recunoaste limbajul sirurilor de forma 0^n 1^n!
+A = 0,1
+Q = q1,q2,q3,q4
+F = q1,q4
+S = q1
+! Alfabetul stivei !
+Z = 0,$
+
+! (stare simbol_in pop) => (stare_noua push) !
+(q1 . .) => (q2 $)
+(q2 0 .) => (q2 0)
+(q2 1 0) => (q3 .)
+(q3 1 0) => (q3 .)
+(q3 . $) => (q4 .)
+!stop!
