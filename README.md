@@ -1,7 +1,7 @@
-#Laboratoare LFA (Limbaje Formale și Automate)
+# Laboratoare LFA (Limbaje Formale și Automate)
 Acest repository conține implementările laboratoarelor pentru cursul de Limbaje Formale și Automate. 
 
-Structura repository-ului:
+## Structura repository-ului:
 Ierarhia fișierelor este organizată pe categorii tematice:
 
 * DFA_NFA/: Implementări ale automatelor finite deterministe și nedeterministe.
@@ -15,11 +15,11 @@ Ierarhia fișierelor este organizată pe categorii tematice:
 * Regex/: Un motor de potrivire (matching) a expresiilor regulate implementat manual prin backtracking.
   
 
-🏛️ Descrierea jocului "Jaf la Muzeu" (PDA Game)
+## 🏛️ Descrierea jocului "Jaf la Muzeu" (PDA Game)
 
 *Acest joc este o implementare practică a unui Automat Finit cu Stivă (PDA - Pushdown Automaton).
 
-Cum se joacă 🎮 :
+### Cum se joacă 🎮 :
 
 Ești un hoț de artă care trebuie să se infiltreze într-un muzeu și să evadeze cu tabloul furat.
 Jocul este împărțit în două faze logice care respectă principiul LIFO (Last-In, First-Out):
@@ -28,7 +28,7 @@ Jocul este împărțit în două faze logice care respectă principiul LIFO (Las
 
 *Faza de Evadare (POP): Pentru a ieși, trebuie să parcurgi traseul invers. Fiecare ieșire dintr-o sală necesită introducerea parolei corecte pentru a „scoate” (pop) sala respectivă din stivă. Dacă stiva se golește, înseamnă că ai evadat cu succes.
 
-Concepte teoretice implementate 📖:
+### Concepte teoretice implementate 📖:
 
 *Alfabetul de intrare : Numele sălilor (Da Vinci, Marie Curie, Mozart).
 
