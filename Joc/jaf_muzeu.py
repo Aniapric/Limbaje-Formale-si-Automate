@@ -220,13 +220,13 @@ def faza_evadare(stiva, securitate):
 
 if __name__ == "__main__":
     securitate = {
-        "Da Vinci": "A pictat Mona Lisa.",
+        "Claude Monet": "A fost obsedat de modul în care lumina se schimbă pe parcursul zilei și a pictat sute de variante ale aceleiași teme, celebrele 'Nuferi' din grădina sa de la Giverny.",
         "Marie Curie": "A descoperit două elemente chimice noi care străluceau în întuneric. Este singura persoană din istorie cu premii Nobel în două științe distincte.",
         "Mozart": "A compus peste 600 de lucrări înainte de a se stinge fulgerător la doar 35 de ani. Ultima sa operă, celebrul 'Requiem', a rămas neterminată pe patul de moarte.."
     }
 
     stiva_pda = []
-    sali = ["Da Vinci", "Marie Curie", "Mozart"] #  alfabetul de intrare al PDA-ului
+    sali = ["Claude Monet", "Marie Curie", "Mozart"] #  alfabetul de intrare al PDA-ului
 
     intro()
     faza_infiltrare(stiva_pda, sali)
