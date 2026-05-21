@@ -30,7 +30,7 @@ Jocul este împărțit în două faze logice care respectă principiul LIFO (Las
 
 ### Concepte teoretice implementate 📖:
 
-* Alfabetul de intrare : Numele sălilor (Da Vinci, Marie Curie, Mozart).
+* Alfabetul de intrare : Numele sălilor (Claude Monet, Marie Curie, Mozart).
 
 * Memorie de tip LIFO: PDA-ul folosește o listă (stivă) pentru a forța jucătorul să respecte ordinea inversă a sălilor parcurse.
 
